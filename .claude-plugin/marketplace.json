@@ -1,0 +1,22 @@
+{
+  "name": "prd-review-agent-marketplace",
+  "owner": {
+    "name": "Meggie Li",
+    "email": "meggie1997@github.com"
+  },
+  "metadata": {
+    "description": "PRD 评审 Agent - 多角色产品需求文档评审工具",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "prd-review",
+      "description": "多角色 PRD 评审 Agent，包含产品经理、技术专家、市场专家和高管四个视角。基于参考文档分析 PRD，提供综合评分、风险评估和 Go/No-Go 建议。",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/prd-review"
+      ]
+    }
+  ]
+}
