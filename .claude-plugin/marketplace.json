@@ -1,0 +1,26 @@
+{
+  "name": "prd-review-agent-marketplace",
+  "owner": {
+    "name": "Meggie Li",
+    "email": "meggie1997@github.com"
+  },
+  "metadata": {
+    "description": "PRD 评审 Agent - 多角色产品需求文档评审工具集",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "prd-review-suite",
+      "description": "完整的 PRD 评审工具集，包含产品经理、技术专家、市场专家、高管四个独立评审 Agent，以及一个协调器用于汇总评审结果。",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/prd-review-pm",
+        "./skills/prd-review-tech",
+        "./skills/prd-review-market",
+        "./skills/prd-review-exec",
+        "./skills/prd-review-coordinator"
+      ]
+    }
+  ]
+}
